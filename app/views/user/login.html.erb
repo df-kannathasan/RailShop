@@ -8,6 +8,10 @@
                          :size => User::SCREEN_NAME_SIZE,
                          :maxlength => User::SCREEN_NAME_MAX_LENGTH %>
   </div>
+	<div class="form_row">
+  <label for="remember_me">Remember Me?:</label>
+  <%= form.check_box :remember_me %>
+</div>
   <div class="form_row">
     <label for="password">Password:</label>
     <%= form.password_field :password,
