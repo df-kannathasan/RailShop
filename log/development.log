@@ -9970,3 +9970,1357 @@ Processing SiteController#about (for 127.0.0.1 at 2012-12-03 11:51:20) [GET]
 Rendering template within layouts/application
 Rendering site/about
 Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/site/about]
+  [4;36;1mSQL (28.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 10:18:37) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 278ms (View: 172, DB: 131) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 10:18:48) [GET]
+Rendering template within layouts/application
+Rendering user/register
+Completed in 34ms (View: 32, DB: 1) | 200 OK [http://localhost/user/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#about (for 127.0.0.1 at 2012-12-05 10:18:51) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 25ms (View: 23, DB: 1) | 200 OK [http://localhost/site/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#about (for 127.0.0.1 at 2012-12-05 10:39:11) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 10:39:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 44ms (View: 42, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 10:40:41) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 52ms (View: 49, DB: 0) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 10:40:50) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (24.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (6.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 43ms (DB: 31) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 10:40:50) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 16ms (View: 13, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 10:41:07) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 10:41:07) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 10:41:10) [GET]
+Rendering template within layouts/application
+Rendering user/register
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/user/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 10:41:26) [POST]
+  Parameters: {"commit"=>"Register!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1234", "email"=>"asss@df.com", "screen_name"=>"aaaa"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`screen_name` = BINARY 'aaaa') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'asss@df.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.1ms)[0m   [0;1mINSERT INTO `users` (`created_at`, `updated_at`, `password`, `screen_name`, `email`) VALUES('2012-12-05 05:11:26', '2012-12-05 05:11:26', '1234', 'aaaa', 'asss@df.com')[0m
+  [4;35;1mSQL (31.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed in 45ms (DB: 34) | 302 Found [http://localhost/user/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 10:41:26) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 10:43:03) [GET]
+Redirected to http://localhost:3000/
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 10:43:03) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 10:54:13) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 29ms (View: 26, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 10:54:15) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 15ms (View: 13, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 10:54:19) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1134568", "screen_name"=>"ddcd"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1134568' AND `users`.`screen_name` = 'ddcd') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 27ms (View: 15, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 10:54:27) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1234", "screen_name"=>"ddcd"}}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'ddcd') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 16ms (View: 5, DB: 2) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 10:54:34) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 10:54:34) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 10:54:39) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 10:54:40) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 10:59:19) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#help (for 127.0.0.1 at 2012-12-05 10:59:21) [GET]
+Rendering template within layouts/application
+Rendering site/help
+Completed in 25ms (View: 23, DB: 1) | 200 OK [http://localhost/site/help]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 11:11:13) [GET]
+Redirected to http://localhost:3000/
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 11:11:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:11:14) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 8, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:11:45) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 34ms (View: 32, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:11:49) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'dhass' AND `users`.`password` = '1234') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:11:49) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:15:09) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 11:15:11) [GET]
+Redirected to http://localhost:3000/
+Completed in 40ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 11:15:11) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:15:12) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 12ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:15:20) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'dhass' AND `users`.`password` = '1234') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:15:20) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:21:42) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:21:45) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:22:10) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 30ms (View: 22, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:23:52) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 30ms (View: 21, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 11:23:54) [GET]
+Redirected to http://localhost:3000/
+Completed in 7ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 11:23:54) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:23:55) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 15ms (View: 13, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:23:58) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"YRWRZ2WIgpkj/0Sn78rBkcqdEUKR7WC2ohRqHbHR5Fs=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:23:59) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:26:21) [GET]
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:26:21) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 8, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:33:47) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:33:54) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"+IrQlMnKpLu6eRx4VjcThG3jcBQv+WeE+71J+ANwRkM=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:33:54) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 11:36:41) [GET]
+Redirected to http://localhost:3000/
+Completed in 14ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 11:36:41) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:36:42) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 16ms (View: 14, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:36:46) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"EGxugtptVbv7Cia/DBng/tJZyXuHGsQHn9U0wkDedw0=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 39ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:36:46) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:42:58) [GET]
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:42:58) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 20ms (View: 18, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:43:05) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"JpuFEyrRObBAG42F+hd9qnXD6p4490tDg7qoMXuLoa0=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:43:05) [GET]
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:43:05) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:43:18) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"Im4Zbx9h6MjSIBgTxzn+xAAE12GKJu5KzYQHcvruSSs=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:43:18) [GET]
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 3ms (DB: 1) | 302 Found [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:43:18) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 12ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 11:45:02) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 35ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:45:07) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:45:13) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"sFEDZBfY7CupBkKS26QRXXuFEPxtugdAUlIFpWtFUpw=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:45:13) [GET]
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 1ms (DB: 1) | 302 Found [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:45:13) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:45:53) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 40ms (View: 38, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 11:45:58) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"rfs1IhnkJrDL982UZkP1kyhb4yDjOMHUDnEtLeI5MbE=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 11:45:58) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (28.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (26.6ms)[0m   [0;1mSHOW FULL TABLES WHERE Table_type = 'BASE TABLE'[0m
+  [4;35;1mSQL (12.3ms)[0m   [0mSHOW CREATE TABLE `schema_migrations`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW CREATE TABLE `sessions`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW CREATE TABLE `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (217.5ms)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET foreign_key_checks = 0[0m
+  [4;36;1mSQL (170.4ms)[0m   [0;1mCREATE TABLE `schema_migrations` (
+ `version` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ UNIQUE KEY `unique_schema_migrations` (`version`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;[0m
+  [4;35;1mSQL (91.7ms)[0m   [0mCREATE TABLE `sessions` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `session_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `data` text COLLATE utf8_unicode_ci,
+ `created_at` datetime DEFAULT NULL,
+ `updated_at` datetime DEFAULT NULL,
+ PRIMARY KEY (`id`),
+ KEY `index_sessions_on_session_id` (`session_id`),
+ KEY `index_sessions_on_updated_at` (`updated_at`)
+) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;[0m
+  [4;36;1mSQL (91.8ms)[0m   [0;1mCREATE TABLE `users` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `screen_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+ `email` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+ `password` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+ `created_at` datetime DEFAULT NULL,
+ `updated_at` datetime DEFAULT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;[0m
+  [4;35;1mSQL (24.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20121121182713');[0m
+  [4;36;1mSQL (24.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20121121190244');[0m
+  [4;35;1mSQL (24.8ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20121123071535');[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW FULL TABLES WHERE Table_type = 'BASE TABLE'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW CREATE TABLE `schema_migrations`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW CREATE TABLE `sessions`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW CREATE TABLE `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (159.2ms)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET foreign_key_checks = 0[0m
+  [4;36;1mSQL (114.2ms)[0m   [0;1mCREATE TABLE `schema_migrations` (
+ `version` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ UNIQUE KEY `unique_schema_migrations` (`version`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;[0m
+  [4;35;1mSQL (83.4ms)[0m   [0mCREATE TABLE `sessions` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `session_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+ `data` text COLLATE utf8_unicode_ci,
+ `created_at` datetime DEFAULT NULL,
+ `updated_at` datetime DEFAULT NULL,
+ PRIMARY KEY (`id`),
+ KEY `index_sessions_on_session_id` (`session_id`),
+ KEY `index_sessions_on_updated_at` (`updated_at`)
+) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;[0m
+  [4;36;1mSQL (75.1ms)[0m   [0;1mCREATE TABLE `users` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `screen_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+ `email` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+ `password` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+ `created_at` datetime DEFAULT NULL,
+ `updated_at` datetime DEFAULT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;[0m
+  [4;35;1mSQL (33.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20121121182713');[0m
+  [4;36;1mSQL (33.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20121121190244');[0m
+  [4;35;1mSQL (33.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20121123071535');[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 12:45:14) [GET]
+Redirected to http://localhost:3000/
+Completed in 6ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 12:45:14) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 15ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 12:45:15) [GET]
+Rendering template within layouts/application
+Rendering user/register
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/register]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 12:45:16) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 10ms (View: 8, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 12:45:17) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#about (for 127.0.0.1 at 2012-12-05 12:45:18) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/site/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#help (for 127.0.0.1 at 2012-12-05 12:45:19) [GET]
+Rendering template within layouts/application
+Rendering site/help
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/site/help]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 12:45:21) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 12:45:28) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"fMBSAP1LcBunCArzyXOxerxeMH6LreOTw2OBlV9N3+s=", "user"=>{"password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 12:45:28) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 12:45:30) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 12:45:30) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 12:45:30) [GET]
+Rendering template within layouts/application
+Rendering user/register
+Completed in 8ms (View: 6, DB: 1) | 200 OK [http://localhost/user/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 12:45:38) [POST]
+  Parameters: {"commit"=>"Register!", "authenticity_token"=>"fMBSAP1LcBunCArzyXOxerxeMH6LreOTw2OBlV9N3+s=", "user"=>{"password"=>"1234", "email"=>"dhass@g.com", "screen_name"=>"sdsds"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`screen_name` = BINARY 'sdsds') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'dhass@g.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering user/register
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/user/register]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 12:45:43) [POST]
+  Parameters: {"commit"=>"Register!", "authenticity_token"=>"fMBSAP1LcBunCArzyXOxerxeMH6LreOTw2OBlV9N3+s=", "user"=>{"password"=>"1234", "email"=>"dhass@g.codm", "screen_name"=>"sdsds"}}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`screen_name` = BINARY 'sdsds') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'dhass@g.codm') LIMIT 1[0m
+  [4;35;1mUser Create (0.2ms)[0m   [0mINSERT INTO `users` (`created_at`, `updated_at`, `password`, `screen_name`, `email`) VALUES('2012-12-05 07:15:43', '2012-12-05 07:15:43', '1234', 'sdsds', 'dhass@g.codm')[0m
+  [4;36;1mSQL (43.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed in 92ms (DB: 45) | 302 Found [http://localhost/user/register]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 12:45:43) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 14:20:24) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 14:20:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:20:25) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 14ms (View: 12, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:20:46) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"WbXyemGtzWr8ZCkMSTA14dlFQTILGFQAfi9xgqO0K4o=", "user"=>{"remember_me"=>"0", "password"=>"1234", "screen_name"=>"dhass"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+ActiveRecord::UnknownAttributeError (unknown attribute: remember_me):
+  app/controllers/user_controller.rb:26:in `new'
+  app/controllers/user_controller.rb:26:in `login'
+
+Rendered rescues/_trace (65.6ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:36:28) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"WbXyemGtzWr8ZCkMSTA14dlFQTILGFQAfi9xgqO0K4o=", "user"=>{"remember_me"=>"0", "password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = 'dhass') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 14:36:28) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 10ms (View: 7, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 14:36:32) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 14:36:32) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 14:36:37) [GET]
+Rendering template within layouts/application
+Rendering user/register
+Completed in 8ms (View: 6, DB: 1) | 200 OK [http://localhost/user/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 14:37:04) [POST]
+  Parameters: {"commit"=>"Register!", "authenticity_token"=>"sfrGf1KuZ3XwHZNLMFjgpwGcnqGD1/5HKb19UFsM8qA=", "user"=>{"password"=>"1234", "email"=>"dhass@g.comdd1", "screen_name"=>"1234"}}
+  [4;36;1mUser Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`screen_name` = BINARY '1234') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'dhass@g.comdd1') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering user/register
+Completed in 53ms (View: 40, DB: 2) | 200 OK [http://localhost/user/register]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-05 14:37:38) [POST]
+  Parameters: {"commit"=>"Register!", "authenticity_token"=>"sfrGf1KuZ3XwHZNLMFjgpwGcnqGD1/5HKb19UFsM8qA=", "user"=>{"password"=>"1234", "email"=>"dhdsdsass@g.com", "screen_name"=>"1234"}}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`screen_name` = BINARY '1234') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`email` = BINARY 'dhdsdsass@g.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.6ms)[0m   [0mINSERT INTO `users` (`created_at`, `updated_at`, `password`, `screen_name`, `email`) VALUES('2012-12-05 09:07:38', '2012-12-05 09:07:38', '1234', '1234', 'dhdsdsass@g.com')[0m
+  [4;36;1mSQL (40.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed in 84ms (DB: 43) | 302 Found [http://localhost/user/register]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 14:37:38) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 14:37:45) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/user/logout]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 14:37:45) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:37:46) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:37:58) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"sfrGf1KuZ3XwHZNLMFjgpwGcnqGD1/5HKb19UFsM8qA=", "user"=>{"remember_me"=>"0", "password"=>"", "screen_name"=>"1234"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`password` = '' AND `users`.`screen_name` = '1234') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 15ms (View: 7, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:38:11) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"sfrGf1KuZ3XwHZNLMFjgpwGcnqGD1/5HKb19UFsM8qA=", "user"=>{"remember_me"=>"1", "password"=>"1234", "screen_name"=>"1234"}}
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = '1234') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 11ms (DB: 2) | 302 Found [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 14:38:11) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 14:38:16) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/user/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 14:38:16) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:38:18) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:38:22) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"sfrGf1KuZ3XwHZNLMFjgpwGcnqGD1/5HKb19UFsM8qA=", "user"=>{"remember_me"=>"0", "password"=>"1234", "screen_name"=>"1234"}}
+  [4;35;1mUser Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = '1234') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 8ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 14:38:22) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 14:46:10) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/user/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 14:46:10) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:46:12) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 12ms (View: 10, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:46:18) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"TMQUSu6wVfRA+TzWRkr0SE3ZRPRmaJZq+wvcVZnArbg=", "user"=>{"remember_me"=>"1", "password"=>"1234", "screen_name"=>"1234"}}
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = '1234') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 166ms (DB: 2) | 302 Found [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 14:46:19) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 14:46:20) [GET]
+Redirected to http://localhost:3000/
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 14:46:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:46:21) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 14:46:26) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"TMQUSu6wVfRA+TzWRkr0SE3ZRPRmaJZq+wvcVZnArbg=", "user"=>{"remember_me"=>"1", "password"=>"1234", "screen_name"=>"1234"}}
+  [4;35;1mUser Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`password` = '1234' AND `users`.`screen_name` = '1234') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/user/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-05 14:46:26) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://localhost/user]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-05 16:39:12) [GET]
+Redirected to http://localhost:3000/
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:39:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 8ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:39:55) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:11) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 8ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:17) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:17) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:28) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:37) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:40:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:41:05) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:41:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:41:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-05 16:41:47) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-05 16:42:22) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 40ms (View: 37, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (7.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-06 15:19:11) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 148ms (View: 126, DB: 28) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-06 15:19:14) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 16ms (View: 14, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-06 15:19:22) [POST]
+  Parameters: {"commit"=>"Login!", "authenticity_token"=>"ZZR7DuTivLweb9AQBIn7MAk++gphvUHya3BktYjGf2U=", "user"=>{"remember_me"=>"1", "password"=>"1234", "screen_name"=>"dhass"}}
+  [4;36;1mUser Columns (23.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'dhass' AND `users`.`password` = '1234') LIMIT 1[0m
+Redirected to http://localhost:3000/user
+Completed in 174ms (DB: 24) | 302 Found [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#index (for 127.0.0.1 at 2012-12-06 15:19:22) [GET]
+Rendering template within layouts/application
+Rendering user/index
+Completed in 9ms (View: 6, DB: 1) | 200 OK [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#logout (for 127.0.0.1 at 2012-12-06 15:19:24) [GET]
+Redirected to http://localhost:3000/
+Completed in 6ms (DB: 1) | 302 Found [http://localhost/user/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-06 15:19:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#register (for 127.0.0.1 at 2012-12-06 15:19:25) [GET]
+Rendering template within layouts/application
+Rendering user/register
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/register]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2012-12-06 15:19:26) [GET]
+Rendering template within layouts/application
+Rendering user/login
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://localhost/user/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#about (for 127.0.0.1 at 2012-12-06 15:19:27) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/site/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#help (for 127.0.0.1 at 2012-12-06 15:19:27) [GET]
+Rendering template within layouts/application
+Rendering site/help
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/site/help]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2012-12-06 15:19:27) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
